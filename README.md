@@ -4,6 +4,8 @@
 -CSS <br/>
 -JavaScript
 
+## SITE 100% OTIMIZADO PARA DISPOSITIVOS MÓVEIS.
+
 ## Imagem do site abaixo: 
 
 

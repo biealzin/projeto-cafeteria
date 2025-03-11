@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GabCafé</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="./videos/Cinematic Coffee - Shot on Sony FX6.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+        <section>
+            <a src="#">
+                <img class="logo" src="./img/Captura_de_tela_2025-03-11_025119-removebg-preview.png" alt="logo">
+
+            </a>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a onclick="mostrarModal()">Endereço</a>
+            </nav>
+
+        </section>
+
+    </header>
+
+
+    <section class="caixa-principal" id="home">
+        <div>
+            <h3>Modelo de site para seu negócio!</h3>
+            <p>O GabCafé é um modelo de site desenvolvido para potencializar as vendas do seu negócio. Criado com HTML,
+                CSS e JavaScript, ele oferece uma base sólida para a construção de uma plataforma personalizada e
+                eficiente. Além de um design moderno, o site pode ser adaptado às necessidades específicas da sua
+                empresa, proporcionando uma experiência intuitiva e envolvente para os clientes.</p>
+            <a class="botao-link" href="https://www.linkedin.com/in/gabriel-oscar-viana">Pegue o seu agora</a>
+        </div>
+    </section>
+
+    <section class="caixa-sobre" id="sobre">
+
+        <h2 class="titulo"> <span>Sobre</span> Nós</h2>
+
+        <div class="container">
+            <div class="sobre-imagem">
+                <img src="./img/about-img.jpg">
+            </div>
+        
+            <div class="sobre-texto">
+                <h3>O que faz do GabCafé especial?</h3>
+                <p>Com um layout responsivo e otimizado, o Gabcafé proporciona uma navegação fluida em qualquer
+                    dispositivo. Seu design moderno e personalizável permite destacar os produtos e serviços do seu
+                    negócio de forma atraente. Além disso, a estrutura do site é desenvolvida para garantir carregamento
+                    rápido e melhor desempenho.</p>
+                <p>A integração de HTML, CSS e JavaScript possibilita interatividade e dinamismo na experiência do
+                    usuário. É uma solução ideal para empresas que buscam fortalecer sua presença online. Invista em um
+                    site profissional e aumente suas oportunidades de venda!</p>
+                <a class="botao-link">Saiba Mais</a>
+            </div>
+
+        </div>
+     </section>
+     
+     <div class="modal">
+        <h3 class="titulo"> <span>Nosso</span> Endereço</h3>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28370.00488449081!2d-48.88138623016583!3d-27.274023006913122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df50db71c35177%3A0x2ef53754b683d34f!2zU8OjbyBKb8OjbyBCYXRpc3RhLCBTQywgODgyNDAtMDAw!5e0!3m2!1spt-BR!2sbr!4v1741675905446!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+
+     <div class="mascara-modal" onclick="esconderModal()"></div>
+
+     <script src="scripts.js"></script>
+</body>
+
+</html>
